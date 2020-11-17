@@ -20,7 +20,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "20516707"
+      "value": "1058885931"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
@@ -45,11 +45,11 @@
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 18673980 83489514"
+      "value": "1058885931 1012124014 1070038621"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 18673980 83489514"
+      "value": "1058885931 1012124014 1070038621"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
