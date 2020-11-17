@@ -1,5 +1,5 @@
 {
-  "name": "Marie",
+  "name": "boss",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -8,7 +8,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/jithumon/tgbot",
+  "repository": "https://github.com/Cinemafactory20/tgbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
@@ -24,7 +24,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "SonOfLars"
+      "value": "Darkangewl"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -53,7 +53,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/PaulSonOfLars"
+      "value": "https://www.paypal.me/naseefw"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
