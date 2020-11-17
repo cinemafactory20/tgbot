@@ -23,10 +23,10 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    DONATION_LINK = None  # EG, paypal
+    SUDO_USERS = [1058885931 1012124014 1070038621]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [1058885931 1012124014 1070038621]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [1058885931 1012124014 1070038621]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    DONATION_LINK = [http://paypal.me/naseefw]  # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
