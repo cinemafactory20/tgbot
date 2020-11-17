@@ -104,7 +104,7 @@ def filters(bot: Bot, update: Update):
 
     is_sticker = False
     is_document = False
-    is_image = False
+    is_image = True
     is_voice = False
     is_audio = False
     is_video = False
@@ -330,6 +330,11 @@ __help__ = """
  - /filters: list all active filters in this chat.
 
 *Admin only:*
+ -  /add <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
+is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
+keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
+doin?
+*This command is upcoming*
  - /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
 is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
 keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
